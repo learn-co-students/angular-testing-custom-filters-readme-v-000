@@ -1,9 +1,7 @@
-describe('UserService', function () {
+describe('UserService', function() {
 	var $controller, firstUppercase;
-
 	beforeEach(module('app'));
-
-	beforeEach(inject(function ($filter) {
+	beforeEach(inject(function($filter) {
 		firstUppercase = $filter('firstUppercase');
 	}));
 
