@@ -9,5 +9,6 @@ describe('UserService', function () {
 
 	it('should capitalise the first letter', function () {
 		expect(firstUppercase('test')).toEqual('Test');
+		expect(firstUppercase('garfield')).toEqual('Garfield');
 	});
 });
