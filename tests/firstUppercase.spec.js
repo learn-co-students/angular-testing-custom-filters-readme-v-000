@@ -11,3 +11,5 @@ describe('UserService', function () {
 		expect(firstUppercase('test')).toEqual('Test');
 	});
 });
+
+//test was written
